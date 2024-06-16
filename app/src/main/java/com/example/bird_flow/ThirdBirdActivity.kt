@@ -24,7 +24,7 @@ class ThirdBirdActivity : AppCompatActivity() {
         }
 
         binding.btnNext3.setOnClickListener {
-            val intent = Intent(this, activity_fourth_bird::class.java)
+            val intent = Intent(this, activity_forth_bird::class.java)
             startActivity(intent)
         }
         Picasso

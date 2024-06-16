@@ -5,15 +5,15 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.example.hello.databinding.ActivityForthBirdBinding
+import com.example.hello.databinding.ActivityFourthBirdBinding
 import com.example.hello.databinding.ActivityThirdBirdBinding
 import com.squareup.picasso.Picasso
 
 class activity_forth_bird : AppCompatActivity() {
-    lateinit var binding: ActivityForthBirdBinding
+    lateinit var binding: ActivityFourthBirdBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityForthBirdBinding.inflate(layoutInflater)
+        binding = ActivityFourthBirdBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.btnPrev2.setOnClickListener {
